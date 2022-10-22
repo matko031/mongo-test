@@ -1,5 +1,5 @@
 1. Install docker and docker-compose
-1. Set up mongo and mongo express containers by running `docker-compose up-d` (or `docker compose up -d`, depending on your compose version)
+1. Set up mongo and mongo express containers by running `docker-compose up -d` (or `docker compose up -d`, depending on your compose version)
 1. Create test databases by running `python3 create_db.py`
 1. Run the tests by running `python3 test.py`
 
