@@ -1,3 +1,5 @@
+Simple environment to test the performance of mongo-db for different types of queries.
+
 1. Install docker and docker-compose
 1. Set up mongo and mongo express containers by running `docker-compose up -d` (or `docker compose up -d`, depending on your compose version)
 1. Create test databases by running `python3 create_db.py`
